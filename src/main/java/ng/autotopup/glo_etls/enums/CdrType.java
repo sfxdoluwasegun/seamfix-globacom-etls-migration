@@ -3,11 +3,11 @@ package ng.autotopup.glo_etls.enums;
 public enum CdrType {
 	
 	REC("rec", "ng.autotopup.glo_etls.cdr.RecImpl"), 
-	DATA("data", ""), 
-	SMS("sms", ""), 
-	MMS("mms", ""), 
-	COM("com", ""), 
-	MON("mon", ""), 
+	DATA("data", "ng.autotopup.glo_etls.cdr.DataImpl"), 
+	SMS("sms", "ng.autotopup.glo_etls.cdr.SmsImpl"), 
+	MMS("mms", "ng.autotopup.glo_etls.cdr.MmsImpl"), 
+	COM("com", "ng.autotopup.glo_etls.cdr.ComImpl"), 
+	MON("mon", "ng.autotopup.glo_etls.cdr.MonImpl"), 
 	OREC("orec", ""), 
 	ODATA("odata", ""), 
 	OSMS("osms", ""), 
